@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-900 font-inter">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-slate-900/90 backdrop-blur-sm z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-8xl text-teal-400 font-mono"></a>
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="#about" class="text-slate-300 hover:text-teal-400 transition-colors">About</a></li>
+                    <li><a href="#education" class="text-slate-300 hover:text-teal-400 transition-colors">Education</a></li>
+                    <li><a href="#projects" class="text-slate-300 hover:text-teal-400 transition-colors">Projects</a></li>
+                    <li><a href="#skills" class="text-slate-300 hover:text-teal-400 transition-colors">Skills</a></li>
+                    <li><a href="#contact" class="text-slate-300 hover:text-teal-400 transition-colors">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center px-6 pt-24" >
+        <div class="container max-w-4xl mx-auto">
+            <div class="space-y-6">
+                <p class="text-teal-400 font-mono">Hi, my name is</p>
+                <h1 class="text-5xl md:text-6xl font-bold text-slate-100">Krishna.</h1>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-300">I build things for the web.</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mt-6 leading-relaxed">
+                    I am Krishna Iyer, a final-year B.Tech student specializing in Electronics and Telecommunication Engineering at K.J. Somaiya College of Engineering, Mumbai. With a strong academic record and a solid foundation in both software and hardware domains, I am focused on building impactful technology solutions that blend innovation with functionality.
+                </p>
+                <a href="#contact" class="inline-block border border-teal-400 text-teal-400 px-8 py-4 rounded 
+                   hover:bg-teal-400/10 transition-all duration-300 font-mono text-sm mt-12">
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 bg-slate-900">
+        <div class="container mx-auto max-w-6xl">
+          <h2 class="text-2xl font-bold text-slate-100 mb-12">
+            <span class="text-teal-400 font-mono">01.</span> About Me
+          </h2>
+      
+          <div class="grid md:grid-cols-2 gap-12 items-start">
+            <!-- Left Column - Description -->
+            <div>
+              <p class="text-slate-300 leading-relaxed mb-6">
+                My technical competencies include programming in C++, Python, and Java, as well as practical knowledge of computer networks, data visualization, and SQL. I have hands-on experience developing full-stack applications using the MERN stack, with projects such as a College Clubs Management System and Workout Buddy, aimed at streamlining user engagement and information management.
+              </p>
+              <p class="text-slate-300 leading-relaxed mb-6">
+                Beyond academics, I have completed certifications in Google Cybersecurity and Foundational Programming and Data Science from IIT Madras, along with an honors track in Networking. I value structured problem-solving, effective communication, and collaborative teamwork, and I am continuously seeking opportunities to contribute to dynamic, innovation-driven environments.
+              </p>
+            </div>
+      
+            <!-- Right Column - Tech Stack Grid -->
+            <div>
+              <h3 class="text-lg font-semibold text-slate-200 mb-4">Technologies I’ve been working with:</h3>
+              <div class="grid grid-cols-3 gap-6">
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-6 h-6" alt="JavaScript" />
+                  <span class="text-sm">JavaScript</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="w-6 h-6" alt="React" />
+                  <span class="text-sm">React.js</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="w-6 h-6" alt="Node.js" />
+                  <span class="text-sm">Node.js</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="w-6 h-6" alt="MongoDB" />
+                  <span class="text-sm">MongoDB</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-6 h-6" alt="Python" />
+                  <span class="text-sm">Python</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-6 h-6" alt="C++" />
+                  <span class="text-sm">C++</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6" alt="Java" />
+                  <span class="text-sm">Java</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6" alt="Git" />
+                  <span class="text-sm">Git</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-300 hover:text-teal-400 transition">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-6 h-6" alt="Linux" />
+                  <span class="text-sm">Linux</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+    <!--Education-->
+    <section id="education" class="py-20 px-8 bg-slate-900">
+        <div class="container mx-auto max-w-6xl">
+            <h3 class="text-2xl font-bold text-slate-100 mb-12">
+                <span class="text-teal-400 font-mono">02.</span> Education
+            </h3>
+    
+            <!-- Education Timeline -->
+            <div class="space-y-4">
+                <!-- KJSCE -->
+                <div class="relative pl-8 border-l-2 border-slate-700">
+                    <div class="absolute w-3 h-3 bg-teal-400 rounded-full -left-[7px] top-0"></div>
+                    <h4 class="text-slate-100 text-lg font-semibold">
+                        K J Somaiya College of Engineering (KJSCE), Mumbai
+                    </h4>
+                    <p class="text-slate-400 mt-1">
+                        Bachelor of Technology in Electronics and Telecommunication Engineering
+                    </p>
+                    <div class="flex justify-between items-start mt-2">
+                        <span class="text-slate-400 text-sm">2021-Present</span>
+                        <span class="text-teal-400 text-sm font-mono">CGPA: 9.45</span>
+                    </div>
+                </div>
+    
+                <!-- PES -->
+                <div class="relative pl-8 border-l-2 border-slate-700">
+                    <div class="absolute w-3 h-3 bg-teal-400 rounded-full -left-[7px] top-0"></div>
+                    <h4 class="text-slate-100 text-lg font-semibold">
+                        PES, Thane
+                    </h4>
+                    <p class="text-slate-400 mt-1">
+                        Maharashtra State Board of Secondary and Higher Secondary Education
+                    </p>
+                    <div class="flex justify-between items-start mt-2">
+                        <span class="text-slate-400 text-sm">2021</span>
+                        <span class="text-teal-400 text-sm font-mono">Percentage: 94.83</span>
+                    </div>
+                </div>
+    
+                <!-- Saraswati Vidyalaya -->
+                <div class="relative pl-8 border-l-2 border-slate-700">
+                    <div class="absolute w-3 h-3 bg-teal-400 rounded-full -left-[7px] top-0"></div>
+                    <h4 class="text-slate-100 text-lg font-semibold">
+                        Saraswati Vidyalaya High School and Junior College of Science
+                    </h4>
+                    <p class="text-slate-400 mt-1">
+                        Maharashtra State Board of Secondary and Higher Secondary Education
+                    </p>
+                    <div class="flex justify-between items-start mt-2">
+                        <span class="text-slate-400 text-sm">2019</span>
+                        <span class="text-teal-400 text-sm font-mono">Percentage: 89.60</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="animate-on-scroll transition-all duration-500 ease-out py-20 px-6">
+            <div class="container mx-auto max-w-6xl">
+                <h3 class="text-2xl font-bold text-slate-100 mb-12"><span class="text-teal-400 font-mono">03.</span> Featured Projects</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-slate-800 rounded-lg p-6 hover:transform hover:-translate-y-2 transition-all">
+                        <div class="mb-4">
+                            <i class="fas fa-folder text-teal-400 text-3xl"></i>
+                        </div>
+                        <h4 class="text-slate-100 text-xl font-bold mb-4">College Club Management System</h4>
+                        <p class="text-slate-400 mb-6">Developed a full-stack web application using MERN stack to manage and display information about college clubs</p>
+                        <div class="flex flex-wrap gap-3 text-slate-400 font-mono text-sm">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+    
+                    <!-- Project 2 -->
+                    <div class="bg-slate-800 rounded-lg p-6 hover:transform hover:-translate-y-2 transition-all">
+                        <div class="mb-4">
+                            <i class="fas fa-folder text-teal-400 text-3xl"></i>
+                        </div>
+                        <h4 class="text-slate-100 text-xl font-bold mb-4">Workout Buddy</h4>
+                        <p class="text-slate-400 mb-6">Developed an application using MERN stack wherein the user can add his workouts and its details and manage them.</p>
+                        <div class="flex flex-wrap gap-3 text-slate-400 font-mono text-sm">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Skills Section -->
+<section id="skills" class="animate-on-scroll transition-all duration-500 ease-out py-20 px-6">
+    <!-- Right Column - Technologies Grid -->
+    <div class="container mx-auto max-w-6xl">
+        <h3 class="text-2xl font-bold text-slate-100 mb-12"><span class="text-teal-400 font-mono">04.</span>Skills</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">C</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">C++</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">Python</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">MySQL</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">MongoDB</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">ExpressJs</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">ReactJs</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">NodeJs</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">JavaScript</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">HTML</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">CSS</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">REST API</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">Github</span>
+            </div>
+            <div class="flex items-center">
+                <span class="text-teal-400 mr-2">▹</span>
+                <span class="text-slate-300">Postman</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="py-20 px-6">
+    <div class="container mx-auto max-w-4xl text-center">
+        <h3 class="text-2xl font-bold text-slate-100 mb-8">
+            Connect With Me
+        </h3>
+
+        <!-- Social Icons -->
+        <div class="flex justify-center space-x-8 md:space-x-12">
+            <!-- GitHub -->
+            <a href="https://github.com/hynorm972" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="text-teal-400 hover:text-teal-300 transition-colors duration-300"
+               aria-label="GitHub">
+                <i class="fab fa-github text-2xl md:text-3xl"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/krishna-iyer-415017243/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="text-teal-400 hover:text-teal-300 transition-colors duration-300"
+               aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in text-2xl md:text-3xl"></i>
+            </a>
+
+            <!-- Twitter/X -->
+            <a href="https://x.com/Krishna00036659" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="text-teal-400 hover:text-teal-300 transition-colors duration-300"
+               aria-label="Twitter">
+                <i class="fab fa-x text-2xl md:text-3xl"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/krishna_r10/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="text-teal-400 hover:text-teal-300 transition-colors duration-300"
+               aria-label="Instagram">
+                <i class="fab fa-instagram text-2xl md:text-3xl"></i>
+            </a>
+        </div>
+
+        <!-- Optional: Email -->
+        <div class="mt-12">
+            <a href="mailto:your.email@example.com" 
+               class="inline-block border border-teal-400 text-teal-400 px-8 py-3 rounded 
+                      hover:bg-teal-400/10 transition-all duration-300 font-mono text-sm">
+                krishnaiyer46732@gmail.com
+            </a>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="animate-on-scroll transition-all duration-500 ease-out border-t border-slate-700">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com/hynorm972" class="text-slate-400 hover:text-teal-400 transition-colors">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/krishna-iyer-415017243/" class="text-slate-400 hover:text-teal-400 transition-colors">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://x.com/Krishna00036659" class="text-slate-400 hover:text-teal-400 transition-colors">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+            </div>
+            <p class="text-slate-400 text-sm font-mono">
+                Built with ❤️ by Krishna
+            </p>
+        </div>
+    </footer>
+    <script>
+        // Add scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                }
+            });
+        });
+
+        document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+            el.classList.add('opacity-0', 'translate-y-20');
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
